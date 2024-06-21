@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100h;
+    margin: 150px;
+    background-image: url("https://wallpapers.com/images/hd/aesthetic-lightning-rmdr59235n7xrpes.jpg");
+
+}
+
+.converter {
+    background-color: #f4d5ed;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(1, 1, 1, 1);
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #562e52;
+
+    border-radius: 5px;
+}
+
+button {
+    background-color: #510e4a;
+    color: white;
+    border: 1px solid #0f0d0f;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5f3c5b;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result h2 {
+    margin-bottom: 10px;
+}

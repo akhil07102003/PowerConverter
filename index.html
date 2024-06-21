@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>Power Converter</h1>
+        <div class="input-group">
+            <label for="inputValue">Enter value:</label>
+            <input type="number" id="inputValue" placeholder="Enter value">
+        </div>
+        <div class="input-group">
+            <label for="inputUnit">From:</label>
+            <select id="inputUnit">
+                <option value="W">Watts (W)</option>
+                <option value="HP">Horsepower (HP)</option>
+                <option value="kW">Kilowatts (kW)</option>
+                <option value="BTU/h">BTU/h</option>
+                <option value="cal/s">Calories/second (cal/s)</option>
+                <option value="kcal/h">Kilocalories/hour (kcal/h)</option>
+                <option value="ft-lb/s">Foot-pounds/second (ft-lb/s)</option>
+                <option value="J/s">Joules/second (J/s)</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="outputUnit">To:</label>
+            <select id="outputUnit">
+                <option value="W">Watts (W)</option>
+                <option value="HP">Horsepower (HP)</option>
+                <option value="kW">Kilowatts (kW)</option>
+                <option value="BTU/h">BTU/h</option>
+                <option value="cal/s">Calories/second (cal/s)</option>
+                <option value="kcal/h">Kilocalories/hour (kcal/h)</option>
+                <option value="ft-lb/s">Foot-pounds/second (ft-lb/s)</option>
+                <option value="J/s">Joules/second (J/s)</option>
+            </select>
+        </div>
+        <button onclick="convert()">Convert</button>
+        <div class="result">
+            <h2>Result:</h2>
+            <p id="outputValue">0</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
